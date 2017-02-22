@@ -1,0 +1,22 @@
+{% extends 'layout/master.twig' %}
+
+{% block body %}
+<div class="col-md-10">
+	<h1>labyrinthe appli.</h1>
+
+	<form from='POST'>
+		Case:<br>
+			<input type="text" name="firstname" value="30" min="4" maxlength="2">
+  		<br>
+  		Ligne:<br>
+			<input type="text" name="firstname" value="30" min="3" maxlength="2">
+  		<br>
+  		Couleur:<br>
+  			<input type="color">
+  		<br>
+  		<br>
+			<button color="#185624"><a href="http://labyrinthes.local/labyrinthes.twig">Envoyer</<a></button>
+</div>
+	</form>
+</div>
+{% endblock %}

@@ -1,0 +1,15 @@
+{
+    "name": "stan/labyrinthes",
+    "description": "\"appli labyrinthes parfaits\"",
+    "require": {
+        "silex/silex": "^2.0",
+        "twig/twig": "^2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stan",
+            "email": "chaperri63@gmail.com"
+        }
+    ]
+}
